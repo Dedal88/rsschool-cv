@@ -19,7 +19,7 @@
 - Communication skills
 - Ability to work in team
 
-## Enlish level:
+## English level:
 
 - A2
 
