@@ -4,7 +4,7 @@
 
 ## Contacts:
 
-> **Github: Dedal88**
+> **Github: [Dedal88](https://github.com/Dedal88)**
 
 ## Experience:
 
@@ -18,3 +18,25 @@
 - Purposefulness
 - Communication skills
 - Ability to work in team
+
+## Enlish level:
+
+- A2
+
+## Example of code:
+
+```
+if (!Array.prototype.map) {
+ Array.prototype.map = function (callBack) {
+   const newArr = [];
+
+   for (let i = 0; i < this.length; i++) {
+     if (i in this) {
+       newArr[i] = callBack(this[i], i, this);
+     }
+   }
+   return newArr;
+ };
+}
+​
+```
