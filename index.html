@@ -50,7 +50,7 @@
 if (!Array.prototype.map) {
   Array.prototype.map = function (callBack) {
     const newArr = [];
-    for (let i = 0; i < this.length; i++) {
+    for (let i = 0; i &lt; this.length; i++) {
       if (i in this) {
         newArr[i] = callBack(this[i], i, this);
       }
