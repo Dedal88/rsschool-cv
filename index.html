@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <title>My cv</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Sergey Malkov</h1>
+        <nav>
+          <ul>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#qualities">Personal qualities</a></li>
+            <li><a href="#english">English level</a></li>
+            <li><a href="#code">Example of code</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <hr />
+        <img class="avatar" src="img/dedal.jpg" alt="Dedal88" />
+        <h1>It specialist</h1>
+        <hr />
+        <h2 id="contacts">Contacts:</h2>
+        <p>
+          Github:
+          <a href="https://github.com/Dedal88" target="_blank">Dedal88</a>
+        </p>
+        <h2 id="experience">Experience:</h2>
+        <ul>
+          <li>Telecommunications Service Engineer - 3 years</li>
+          <li>Software Engineer - 6 monts</li>
+          <li>User Technical Support Specialist - 3 years</li>
+          <li>Leading Information Security Expert - 4 years</li>
+        </ul>
+        <h2 id="qualities">Personal qualities:</h2>
+        <ul>
+          <li>Purposefulness</li>
+          <li>Communication skills</li>
+          <li>Ability to work in team</li>
+        </ul>
+        <h2 id="english">English level:</h2>
+        <p>A2</p>
+        <h2 id="code">Example of code:</h2>
+        <pre>
+  <code>
+if (!Array.prototype.map) {
+  Array.prototype.map = function (callBack) {
+    const newArr = [];
+    for (let i = 0; i &lt; this.length; i++) {
+      if (i in this) {
+        newArr[i] = callBack(this[i], i, this);
+      }
+    }
+    return newArr;
+  };
+}
+  </code>
+</pre>
+      </main>
+      <footer>
+        <p>© 2026</p>
+        <p>
+          Github:
+          <a href="https://github.com/Dedal88" target="_blank">Dedal88</a>
+        </p>
+        <a href="https://rs.school/courses/javascript" target="_blank"
+          ><img class="logo" src="img/logo.svg" alt="RS School logo"
+        /></a>
+      </footer>
+    </div>
+  </body>
+</html>
